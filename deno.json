@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run -A --watch main.ts",
+    "simple": "deno run -A --watch packages.ts"
+  },
+  "imports": {
+    "@std/http": "jsr:@std/http@^1.0.13",
+    "cheerio": "npm:cheerio@^1.0.0",
+    "octokit": "npm:octokit@^4.1.2"
+  }
+}
