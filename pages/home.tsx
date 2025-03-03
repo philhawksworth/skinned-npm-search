@@ -3,7 +3,7 @@ import InstallCommand from "../components/InstallCommand.tsx";
 const packages = [
   "express",
   "chalk",
-  "cheeio",
+  "cheerio",
   "moment",
   "netlify-cli",
 ]
