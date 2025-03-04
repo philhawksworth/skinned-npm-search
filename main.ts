@@ -46,7 +46,6 @@ async function handleRequest(request: Request) {
     // determine and append the deno install command for each package
     $("section").each(function() {
       const title = $(this).find("h3").text();
-      console.log(title);
       $(this).find('p').before(InstallCommand(title));
     });
     const listing = $('section');
