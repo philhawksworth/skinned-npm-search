@@ -12,6 +12,7 @@ export default function page({ title, content, install, searchStr }: PageProps) 
   <!DOCTYPE html>
   <html>
     <head>
+      <meta charset="utf-8">
       <title>NPM Package</title>
        <link rel="stylesheet" href="https://static-production.npmjs.com/styles.3c3ef91f073352bb91e7.css" />
        <link rel="stylesheet" href="/styles.css" />
