@@ -9,6 +9,14 @@ html, body {
 h1 {
   font-size: 3rem;
 }
+
+h2,h3,h4 {
+  margin-top: 2em;;
+  margin-bottom: 0.8em;
+}
+a.plain {
+  text-decoration: none;
+}
 header {
   background-color: #000;
   color: #fff;
@@ -99,6 +107,11 @@ code.install {
   background-color: #000;
   color: #fff;
   display: inline-block;
+}
+
+code .code-command {
+
+  color: aquamarine;
 }
 
 section {
