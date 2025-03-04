@@ -92,8 +92,8 @@ div.deno-install {
   display: inline-block;
   vertical-align: middle;
   padding: 1rem;
-  margin-top: 0.75rem;
-  margin-bottom: 0rem;
+  margin-top: 0rem;
+  margin-bottom: 0.75rem;
   border-radius: 0.5rem;
   font-size: 0.8rem;
   img {
